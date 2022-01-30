@@ -1,5 +1,5 @@
 class FlowerList {
-        private contentCount = 0;
+        private flowerCount = 0;
        private _items: Flower[];
         constructor(item: Flower) {
         this._items = []; // initialize array
