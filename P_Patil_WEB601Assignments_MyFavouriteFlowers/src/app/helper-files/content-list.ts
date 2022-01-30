@@ -3,7 +3,9 @@ class FlowerList {
        private _items: Flower[];
         constructor(item: Flower) {
         this._items = []; // initialize array
-        this._items[0] = item;
+        let name: string;
+        name:'prarthana';
+        
     }
     get items(): Flower[]{
         return this._items;
