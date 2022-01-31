@@ -8,15 +8,14 @@ export class ContentList {
       this._items[0]=item;
       this.increaseCount();
   }
+  get items(): Content[]{
+    return this._items;
+    }
+  set items(newItems: Content[]) {
+        this._items = newItems;
+      }
 increaseCount(){
   return ++ContentList.flowerCount;
 }
 
-
-get items(): Content[]{
-  return this._items;
-  }
-set items(newItems: Content[]) {
-      this._items = newItems;
-    }
 }
